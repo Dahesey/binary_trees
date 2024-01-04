@@ -5,6 +5,8 @@
  * binary_tree_height - A function to check the height of a tree
  *
  * @tree: The tree to be checked
+ *
+ * Return: The height of the tree
  */
 
 size_t binary_tree_height(const binary_tree_t *tree)

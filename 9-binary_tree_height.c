@@ -1,6 +1,13 @@
 #include "binary_trees.h"
 #include <stddef.h>
 
+int height(const binary_tree_t *tree)
+{
+	int left, right;
+
+
+
+
 /**
  * binary_tree_height - A function to check the height of a tree
  *

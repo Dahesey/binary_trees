@@ -12,7 +12,7 @@
 /**
  * binary_tree_leaves - A function to count the leaves on a binary tree
  *
- * @tree: The tree 
+ * @tree: The tree
  *
  * Return: The count
  */

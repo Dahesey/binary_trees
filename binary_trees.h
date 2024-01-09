@@ -1,6 +1,7 @@
 #ifndef BINARY_TREES_H
 #define BINARY_TREES_H
 
+#define sibling(node)	((node)->parent->left == (node) ? (node)->parent->right : (node)->parent->left)
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #include <stddef.h>
 

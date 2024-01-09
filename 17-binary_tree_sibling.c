@@ -1,13 +1,6 @@
 #include "binary_trees.h"
 
 /**
- * sibling - A macro to check for the sibling of a node
- *
- * @node: The node
- */
-#define sibling(node) ((node)->parent->left == (node) ? (node)->parent->right : (node)->parent->left)
-
-/**
  * binary_tree_sibling - finds the sibling of a node
  *
  * @node: A pointer to the node to find the sibling of
